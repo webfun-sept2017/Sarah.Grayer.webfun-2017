@@ -1,0 +1,83 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+h1{
+
+}
+h2{
+
+}
+p{
+
+}
+.wrapper{
+  width: 970px;
+  height: 600px;
+  background-color: #1d2e53;
+  padding: 10px
+}
+.header{
+  background-color: #c72a34;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  width: 100%
+}
+.header h1{
+  margin: 0;
+  padding: 10px 0 10px 10px;
+  color: white;
+}
+.sidebar{
+  width: 180px;
+  background-color: #2a7382;
+  border-radius: 25px;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+}
+.sidebar ul{
+  padding-left: 20px;
+  margin: 0;
+  color: #61cac7;
+}
+.sidebar a{
+  color: #61cac7;
+  font-size: 12px;
+}
+.main_content{
+  height: 400px;
+  width: 690px;
+  display: inline-block;
+  margin-left: 15px;
+  background-color: #121820;
+  border-radius: 15px;
+  padding: 15px;
+  color: white;
+  margin: 10px;
+}
+.main_content a{
+  color: #2a7382;
+}
+.main_content ul{
+  padding-left: 20px;
+}
+.footer{
+  background-color: #555d69;
+  display: block;
+  width: 100%;
+  border-radius: 15px;
+  height: 60px;
+  margin top: 10px;
+  padding: 0px;
+}
+.footer p{
+  color: white;
+  padding: 20px 0 20px 15px;
+  margin: 15px;
+}
+.footer a{
+  color: #61cac7;
+}
