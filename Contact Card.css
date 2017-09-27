@@ -1,0 +1,109 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+.body{
+  width: 750px;
+  height: auto;
+}
+.top{
+  text-align: center;
+  background-color: #009ac7;
+  height: 85px;
+  width: 750px;
+  padding-top: 10px;
+  margin: 20px;
+}
+.navigation{
+  display: inline-block;
+  text-align: left;
+  width: 750px;
+}
+.navigation ul{
+  width: 50px;
+  height: auto;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.navigation i{
+  font-size: 20px;
+  height: auto;
+  padding-left: 10px;
+  padding-top: 20px;
+  display: inline-block;
+}
+.navigation input{
+  border-radius: 10px;
+  padding-left: 2px;
+  margin-left: 400px;
+  display: inline-block;
+}
+
+#back{
+  display: none;
+}
+input textarea{
+  display: block;
+}
+#left{
+  display: inline-block;
+  vertical-align: top;
+  margin: 30px;
+  background-color: white;
+  width: 150px;
+  height: auto;
+  padding-left: 10px;
+  text-align: left;
+}
+#right{
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 100px;
+}
+#card{
+  width: 300px;
+  height: 15px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+  display: block;
+}
+#wrapper{
+  width: 750px;
+  height: auto;
+}
+
+form{
+  display: inline-block;
+}
+input label{
+  display: inline-block;
+  width: 350px;
+  margin: 10px
+  padding: 10px;
+}
+#right #card{
+  display: inline-block;
+  width: 150px;
+  padding: 10px;
+}
+#description{
+  height: 110px;
+}
+#desc{
+  width: 172px;
+  height: 172px;
+}
+button{
+  margin: 20px;
+  padding: 5px;
+}
+.footer{
+  background-color: #009ac7;
+  height: 30px;
+  width: 750px;
+  margin-left: 20px;
+}
