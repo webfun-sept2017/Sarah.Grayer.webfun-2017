@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Users</title>
+      <link rel="stylesheet" type="text/css" href="Users.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <script type = "text/javascript" src =http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js></script>
+      <script type="text/javascript">
+
+        $(document).ready(function(){
+
+        $('#submit').click(function(){
+          $("table").append("<tr><td>"+$("input[name='first_name']").val()+"</td><td>"+ $("input[name='last_name']").val()+"</td><td>"+$("input[name='email']").val()+"</td><td>"+$("input[name='tel']").val()+"</td></tr>");
+          return false;
+        });
+      });
+        </script>
+      </head>
+  <body>
+    <div>
+      <table>
+        <tr>
+          <td>First Name</td>
+          <td>Last Name</td>
+          <td>Email Address</td>
+          <td>Contact #</td>
+        </tr>
+      </table>
+    </div>
+
+    <h1>Add User</h1>
+
+    <div>
+      <form>
+        <div class="line">
+          <label for="first_name">First Name:</label>
+          <input type="text" name="first_name" placeholder="First Name">
+        </div>
+        <div class="line">
+          <label for="last_name">Last Name:</label>
+          <input type="text" name="last_name" placeholder="Last Name">
+        </div>
+        <div class="line">
+          <label for="email">Email:</label>
+          <input type="email" name="email" placeholder="Email">
+        </div>
+        <div class="line">
+          <label for="phone">Contact No.</label>
+          <input type="tel" name="tel" placeholder="Phone #">
+        </div>
+        <div>
+          <input type=submit id="submit" value="Add User">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

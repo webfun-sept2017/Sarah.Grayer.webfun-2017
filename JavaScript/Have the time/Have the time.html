@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Have the Time</title>
+    <script type="text/javascript">
+
+      var hour = 6;
+      var minute = 10;
+      var period = "PM";
+
+      var string = "It's ";
+
+      if(minute>30){
+        string+="almost "+(hour + 1)
+      }else{
+        string+="just after "+(hour)
+      }
+      if(period=="PM"){
+        string+=" in the evening."
+      }else{
+        string+=" in the morning."
+      }
+
+      console.log(string)
+
+      </script>
+    </head>
+  <body>
+
+  </body>
+</html>

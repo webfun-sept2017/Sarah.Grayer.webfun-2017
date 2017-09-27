@@ -1,0 +1,19 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+.wrapper{
+  width: 500px;
+  height: auto;
+}
+.body{
+  width: 750px;
+  height: auto;
+}
+.photo img{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ninja to Cat</title>
+
+    <link rel="stylesheet" type="text/css" href="NinjatoCat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type = "text/javascript" src =http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+
+      $("img").click(function(){
+        $(this).attr("src",$(this).attr("alt-src"));
+      });
+
+      });
+      </script>
+    </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="photo">
+        <img src="ninja0.png" alt-src="cat0.png" temp="">
+        <img src="ninja1.png" alt-src="cat1.png" temp="">
+        <img src="ninja2.png" alt-src="cat2.png" temp="">
+        <img src="ninja3.png" alt-src="cat3.png" temp="">
+        <img src="ninja4.png" alt-src="cat4.png" temp="">
+      </div>
+    </div>
+  </body>
+</html>

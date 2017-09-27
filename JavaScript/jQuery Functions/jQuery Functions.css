@@ -1,0 +1,89 @@
+*{
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+.wrapper{
+  width: 720px;
+  height: auto;
+}
+.body{
+  width: 720px;
+  height: auto;
+}
+.header{
+  text-align: center;
+  background-color: #009ac7;
+  height: 100px;
+  width: 100%;
+  padding-top: 10px;
+
+}
+.navigation{
+  display: inline-block;
+  text-align: left;
+  width: 700px;
+}
+.navigation ul{
+  width: 50px;
+  height: auto;
+  display: inline-block;
+}
+.navigation i{
+  font-size: 20px;
+  height: auto;
+  padding-left: 10px;
+  padding-top: 20px;
+  display: inline-block;
+}
+.navigation input{
+  border-radius: 10px;
+  padding-left: 2px;
+  margin-left: 378px;
+}
+
+.section{
+  background-color: white;
+  border-bottom: 5px solid black;
+  display: block;
+  height: 150px;
+  width: 710px;
+  margin:20px 0px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.section button{
+  width: 80px;
+  height: auto;
+  display: inline-block;
+  padding: 6px;
+  margin-top: 50px;
+  margin-right: 15px;
+  font-size: 14px;
+}
+.section h1{
+  width: 590px;
+  height: auto;
+  display: inline-block;
+  padding-bottom: 6px;
+  margin-right: 14px;
+}
+.section p{
+  width: 590px;
+  height: auto;
+  display: inline-block;
+  margin-left: 100px;
+  margin-right: 14px;
+}
+.section img{
+  width: 46px;
+  height: auto;
+}
+
+.footer{
+  background-color: #009ac7;
+  height: 50px;
+  width: 100%;
+}
