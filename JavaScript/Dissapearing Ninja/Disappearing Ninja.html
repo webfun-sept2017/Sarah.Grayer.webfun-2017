@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="ut-8">
+    <title>jQuery Functions</title>
+
+    <link rel="stylesheet" type="text/css" href="Disappearing Ninja.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type = "text/javascript" src =http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+
+      $("img").click(function(){
+        $(this).css("visibility", "hidden");
+      })
+
+      $("button").click(function(){
+        $("img").css("visibility", "visible");
+      })
+
+      });
+      </script>
+    </head>
+
+  <body>
+    <div class="wrapper">
+
+      <div class="top">
+        <h2>Dissapearing Chloe</h2>
+        <div class = "navigation">
+          <i class="fa fa-arrow-left"></i>
+          <i class="fa fa-arrow-right"></i>
+          <i class="fa fa-close"></i>
+          <i class="fa fa-home"></i>
+          <input type="text" placeholder="search">
+        </div>
+      </div>
+
+      <div class='main'>
+        <h1>jQuery - Assignment 1</h1>
+        <div class='images'>
+          <img src="Chloe.png" alt="Chloe">
+          <img src="Chloe1.png" alt="Chloe">
+          <img src="Chloe2.png" alt="Chloe">
+          <img src="Chloe3.png" alt="Chloe">
+          <img src="Chloe4.png" alt="Chloe">
+          <img src="Chloe5.png" alt="Chloe">
+          <img src="Chloe6.png" alt="Chloe">
+          <img src="Chloe7.png" alt="Chloe">
+        </div>
+        <button>Restore</button>
+      </div>
+
+      <div class="footer">
+      </div>
+
+    </div>
+  </body>
+</html>

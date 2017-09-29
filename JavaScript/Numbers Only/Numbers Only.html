@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Numbers Only</title>
+    <script type="text/javascript">
+
+    function numbersOnly(arr){
+    var new_array=[];
+    for (var i=0; i<=arr.length; i++){
+      if (typeof(arr[i]) == "number"){
+        new_array.push(arr[i])
+        }
+      else{
+        }
+      }
+    console.log(new_array);
+    return (new_array);
+    }
+
+    numbersOnly([1, "apple", -3, "orange", .5]);
+    //newArray is [1, -3, .5]
+
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
