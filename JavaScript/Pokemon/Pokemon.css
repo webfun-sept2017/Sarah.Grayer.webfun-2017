@@ -1,0 +1,9 @@
+body{
+  width: 720px;
+  height: auto;
+}
+img{
+  width: 100px;
+  height: auto;
+  display: inline-block;
+}
