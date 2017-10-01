@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8>">
+    <title>Wheather Forcast</title>
+    <script src =https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js></script>
+    <script type="text/javascript">
+
+    $(document).ready(function() {
+        $('button').click(function() {
+            var apikey='ac0857f2f9011ebd0cf90ec5e9d042b5';// your code here (build up your url)
+            var city = $('input#city').val();
+            $.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apikey}`, function(res) {
+              console.log(res);
+              var html="";
+              html +=`<p>Temperature: ${res['main']['temp']} F</p>`;
+              html +=`<p>Visibility: ${res['weather'][0]['description']}</p>`;
+              $('#results').html(html);
+              }, 'json');
+
+            return false;
+          });
+      });
+    </script>
+  </head>
+    <body>
+      <div id="top">
+        <form>
+          <label for='city'>City:
+            <input type="text" id="city"/>
+          </label>
+          <button>Wheather</button>
+        </form>
+        <div id="results"></div>
+      </div>
+    </body>
+</html>
